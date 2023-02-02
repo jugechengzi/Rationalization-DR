@@ -1,4 +1,4 @@
-# FR: Folded Rationalization with a Unified Encoder
+# DR: Decoupled Rationalization
 This repo contains Pytorch implementation of Decoupled Rationalization (DR).  
 ## Environments
 torch 1.10.2+cu113. python 3.7.9. tensorboardx 2.4. tensorboard 2.6.0
