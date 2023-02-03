@@ -11,7 +11,7 @@ Word embedding: [glove.6B.100d.txt](https://nlp.stanford.edu/projects/glove/). T
 
 ## Running example
 ### Beer
-Appearance: python -u norm_beer.py --dis_lr 1 --hidden_dim 200 --data_type beer --save 0 --dropout 0.2 --lr 0.0001 --batch_size 128 --gpu 1 --sparsity_percentage 0.163 --sparsity_lambda 11 --continuity_lambda 12 --epochs 200 --aspect 0 
+Aroma: python -u norm_beer.py --dis_lr 1 --hidden_dim 200 --data_type beer --save 0 --dropout 0.2 --lr 0.0002 --batch_size 128 --gpu 1 --sparsity_percentage 0.138 --sparsity_lambda 11 --continuity_lambda 12 --epochs 200 --aspect 1
 
 
 
