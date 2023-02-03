@@ -1,7 +1,7 @@
 # DR: Decoupled Rationalization
 This repo contains Pytorch implementation of Decoupled Rationalization (DR).  
 ## Environments
-torch 1.10.2+cu113. python 3.7.9. tensorboardx 2.4. tensorboard 2.6.0
+torch 1.12.0+cu113. python 3.7.9. tensorboardx 2.4. tensorboard 2.6.0
 ## Datasets
 Beer Reviews: you can get it [here](http://people.csail.mit.edu/taolei/beer/). Then place it in the ./data/beer directory.  
 Hotel Reviews: you can get it [here](https://people.csail.mit.edu/yujia/files/r2a/data.zip). 
