@@ -16,7 +16,7 @@ from tensorboardX import SummaryWriter
 
 
 def parse():
-    #默认： nonorm, dis_lr=1, data=beer, save=0
+    #default： nonorm, dis_lr=1, data=beer, save=0
     parser = argparse.ArgumentParser(
         description="SR")
     # pretrained embeddings
