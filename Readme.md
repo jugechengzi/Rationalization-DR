@@ -1,5 +1,5 @@
 # DR: Decoupled Rationalization
-This repo contains Pytorch implementation of Decoupled Rationalization (DR).  
+This repo contains Pytorch implementation of Decoupled Rationalization with Asymmetric Learning Rates (KDD 2023).  
 ## Environments
 torch 1.12.0+cu113. 
 
