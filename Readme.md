@@ -1,7 +1,19 @@
 # DR: Decoupled Rationalization
 This repo contains Pytorch implementation of Decoupled Rationalization (DR).  
 ## Environments
-torch 1.12.0+cu113. python 3.7.9. tensorboardx 2.4. tensorboard 2.6.0
+torch 1.12.0+cu113. 
+
+python 3.7.13. 
+
+RTX3090
+
+We suggest you to create a new environment with: conda create -n DR python=3.7.13
+
+Then activate the environment with: conda activate DR
+
+And then conduct: pip install -r requirements.txt
+
+
 ## Datasets
 Beer Reviews: you can get it [here](http://people.csail.mit.edu/taolei/beer/). Then place it in the ./data/beer directory.  
 Hotel Reviews: you can get it [here](https://people.csail.mit.edu/yujia/files/r2a/data.zip). 
@@ -11,7 +23,7 @@ Word embedding: [glove.6B.100d.txt](https://nlp.stanford.edu/projects/glove/). T
 
 ## Running example
 ### Beer
-Aroma: python -u norm_beer.py --dis_lr 1 --hidden_dim 200 --data_type beer --save 0 --dropout 0.2 --lr 0.0002 --batch_size 128 --gpu 1 --sparsity_percentage 0.138 --sparsity_lambda 11 --continuity_lambda 12 --epochs 200 --aspect 1
+Aroma: python -u norm_beer.py --lr 0.0002 --batch_size 128 --gpu 0 --sparsity_percentage 0.138 --sparsity_lambda 11 --continuity_lambda 12 --epochs 200 --aspect 1
 
 ## Result  
 You will get a result like "best_dev_epoch=184" at last. Then you need to find the result corresponding to the epoch with number "184".  
