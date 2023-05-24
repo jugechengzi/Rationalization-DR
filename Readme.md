@@ -1,5 +1,5 @@
 # DR: Decoupled Rationalization
-This repo contains Pytorch implementation of Decoupled Rationalization with Asymmetric Learning Rates (KDD 2023).  
+This repo contains Pytorch implementation of [Decoupled Rationalization with Asymmetric Learning Rates: A Flexible Lipshitz Restraint (KDD 2023)](https://arxiv.org/abs/2305.13599) .  
 ## Environments
 torch 1.12.0+cu113. 
 
