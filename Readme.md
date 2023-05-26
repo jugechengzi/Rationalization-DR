@@ -14,7 +14,9 @@ We suggest you to create a new environment with: conda create -n DR python=3.7.1
 
 Then activate the environment with: conda activate DR
 
-And then conduct: pip install -r requirements.txt
+Install pytorch: conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+
+Install other packages: pip install -r requirements.txt
 
 
 ## Datasets
