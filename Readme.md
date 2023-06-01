@@ -3,6 +3,8 @@ This repo contains Pytorch implementation of [Decoupled Rationalization with Asy
 
 We would be grateful if you would star this repo before cloning it.
 
+If you have any questions, please feel free to open an issue or just send un an email.
+
 ## Environments
 torch 1.12.0+cu113. 
 
