@@ -5,6 +5,10 @@ We would be grateful if you would star this repo before cloning it.
 
 If you have any questions, please feel free to open an issue or just send us an email.
 
+## Abstract
+In this paper, we theoretically bridge degeneration with the predictor’s Lipschitz continuity. Then, we emperically propose a simple but effective method named DR, which can naturally
+and flexibly constrain the Lipschitz constant of the predictor, to address the problem of degeneration. The main idea of DR is to decouple the generator and predictor to allocate them with asymmetric learning rates.
+
 ## Environments
 torch 1.12.0+cu113. 
 
