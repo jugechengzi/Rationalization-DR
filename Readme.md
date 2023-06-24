@@ -69,28 +69,28 @@ The line "annotation dataset : recall:0.8703 precision:0.9973 f1-score:0.9295 ac
 ## Citation
 
 
-@article{DBLP:journals/corr/abs-2305-13599,
-  author       = {Wei Liu and
-                  Jun Wang and
-                  Haozhao Wang and
-                  Ruixuan Li and
-                  Yang Qiu and
-                  Yuankai Zhang and
-                  Jie Han and
-                  Yixiong Zou},
+@article{DBLP:journals/corr/abs-2305-13599,  
+  author       = {Wei Liu and  
+                  Jun Wang and  
+                  Haozhao Wang and  
+                  Ruixuan Li and  
+                  Yang Qiu and  
+                  Yuankai Zhang and  
+                  Jie Han and  
+                  Yixiong Zou},  
   title        = {Decoupled Rationalization with Asymmetric Learning Rates: {A} Flexible
-                  Lipschitz Restraint},
-  journal      = {CoRR},
-  volume       = {abs/2305.13599},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2305.13599},
-  doi          = {10.48550/arXiv.2305.13599},
-  eprinttype    = {arXiv},
-  eprint       = {2305.13599},
-  timestamp    = {Fri, 16 Jun 2023 09:14:54 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-13599.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
+                  Lipschitz Restraint},  
+  journal      = {CoRR},  
+  volume       = {abs/2305.13599},  
+  year         = {2023},  
+  url          = {https://doi.org/10.48550/arXiv.2305.13599},  
+  doi          = {10.48550/arXiv.2305.13599},  
+  eprinttype    = {arXiv},  
+  eprint       = {2305.13599},  
+  timestamp    = {Fri, 16 Jun 2023 09:14:54 +0200},  
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-13599.bib},  
+  bibsource    = {dblp computer science bibliography, https://dblp.org}  
+}  
 
 
 
