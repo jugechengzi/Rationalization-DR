@@ -1,5 +1,7 @@
 # DR: Decoupled Rationalization
-This repo contains Pytorch implementation of [Decoupled Rationalization with Asymmetric Learning Rates: A Flexible Lipschitz Restraint (KDD 2023)](https://github.com/jugechengzi/Rationalization-DR/blob/main/paper.pdf). 
+This repo contains Pytorch implementation of [Decoupled Rationalization with Asymmetric Learning Rates: A Flexible Lipschitz Restraint (KDD 2023)](https://github.com/jugechengzi/Rationalization-DR/blob/main/paper.pdf).
+
+**The bibtex in Google Scholar is incorrect, please use the citation we provide below.**
 
 This paper is greatly appreciated by some of the reviewers from ACL ARR October and KDD. See [reviews](https://github.com/jugechengzi/Rationalization-DR/blob/main/REVIEW.pdf).
 
@@ -63,6 +65,34 @@ rationale dataset : recall:0.8738 precision:0.9920 f1-score:0.9292 accuracy:0.87
 
 The line "annotation dataset : recall:0.8703 precision:0.9973 f1-score:0.9295 accuracy:0.8723" indicates that the prediction accuracy on the test set is 87.23. And the line 
 "The annotation performance: sparsity: 15.6389, precision: 77.1722, recall: 77.4658, f1: 77.3188" indicates that the rationale F1 score is 77.3188.
+
+## Citation
+
+
+@article{DBLP:journals/corr/abs-2305-13599,
+  author       = {Wei Liu and
+                  Jun Wang and
+                  Haozhao Wang and
+                  Ruixuan Li and
+                  Yang Qiu and
+                  Yuankai Zhang and
+                  Jie Han and
+                  Yixiong Zou},
+  title        = {Decoupled Rationalization with Asymmetric Learning Rates: {A} Flexible
+                  Lipschitz Restraint},
+  journal      = {CoRR},
+  volume       = {abs/2305.13599},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.13599},
+  doi          = {10.48550/arXiv.2305.13599},
+  eprinttype    = {arXiv},
+  eprint       = {2305.13599},
+  timestamp    = {Fri, 16 Jun 2023 09:14:54 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-13599.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
 
 
 
