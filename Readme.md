@@ -44,6 +44,8 @@ Aroma: python -u norm_beer.py --lr 0.0002 --batch_size 128 --gpu 0 --sparsity_pe
 ### Hotel  
 Service: python -u norm_beer.py --data_type hotel --lr 0.0001 --batch_size 1024 --gpu 0 --sparsity_percentage 0.115 --sparsity_lambda 10 --continuity_lambda 10 --epochs 400 --aspect 1
 
+**_Notes_**: "--sparsity_percentage 0.138" means "$s=0.138$" in Eq.3 (But the actual sparsity is different from $s$). "--sparsity_lambda 11 --continuity_lambda 12 " means $\lambda_1=11, \lambda_2=12$. "--epochs 200" means we run 200 epochs and take the results when the "dev_acc" is best.
+
 ## Result  
 You will get a result like "best_dev_epoch=184" at last. Then you need to find the result corresponding to the epoch with number "184".  
 For Beer-Aroma, you may get a result like: 
