@@ -28,6 +28,9 @@ Install pytorch: conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0
 
 Install other packages: pip install -r requirements.txt
 
+## Tips for building your method with our code
+
+
 
 ## Datasets
 Beer Reviews: you can get it [here](http://people.csail.mit.edu/taolei/beer/). Then place it in the ./data/beer directory.  
