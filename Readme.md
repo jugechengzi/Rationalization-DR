@@ -28,7 +28,10 @@ Install pytorch: conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0
 
 Install other packages: pip install -r requirements.txt
 
-## Tips for building your method with our code
+
+## Tips for building your own method with our code
+
+We have provided some tips for you to build your method on top of our code: [tips](https://github.com/jugechengzi/Rationalization-DR/edit/main/tips.pdf)
 
 
 
