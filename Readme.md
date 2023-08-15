@@ -77,7 +77,7 @@ The line "annotation dataset : recall:0.8703 precision:0.9973 f1-score:0.9295 ac
 ## Citation
 
 
-@inproceedings{10.1145/3580305.3599299,
+@inproceedings{10.1145/3580305.3599299,  
 author = {Liu, Wei and Wang, Jun and Wang, Haozhao and Li, Ruixuan and Qiu, Yang and Zhang, YuanKai and Han, Jie and Zou, Yixiong},  
 title = {Decoupled Rationalization with Asymmetric Learning Rates: A Flexible Lipschitz Restraint},  
 year = {2023},  
