@@ -10,7 +10,7 @@ from embedding import get_embeddings,get_glove_embedding
 from torch.utils.data import DataLoader
 
 from model import Sp_norm_model
-from train_util import train_sp_norm,train_noshare
+from train_util import train_sp_norm
 from validate_util import validate_share, validate_dev_sentence, validate_annotation_sentence, validate_rationales
 from tensorboardX import SummaryWriter
 
