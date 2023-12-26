@@ -3,7 +3,9 @@ This repo contains Pytorch implementation of [Decoupled Rationalization with Asy
 
 **The bibtex in Google Scholar is incorrect, please use the citation we provide below.**
 
-**We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-DR/edit/main/tips.pdf)** If you're still having trouble reproducing your code after reading these tips, I'd be happy to set up a video meeting to help you.
+**We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-DR/edit/main/tips.pdf)** 
+
+Please open an issue if you have any problems.
 
 We would be grateful if you would star this repo before cloning it.
 
