@@ -75,6 +75,10 @@ rationale dataset : recall:0.8738 precision:0.9920 f1-score:0.9292 accuracy:0.87
 The line "annotation dataset : recall:0.8703 precision:0.9973 f1-score:0.9295 accuracy:0.8723" indicates that the prediction accuracy on the test set is 87.23. And the line 
 "The annotation performance: sparsity: 15.6389, precision: 77.1722, recall: 77.4658, f1: 77.3188" indicates that the rationale F1 score is 77.3188.
 
+## Scalable Variants
+The method for rigorously implementing DR is somewhat complex, but we provide a recommended scalable approach. After tuning the hyperparameters of RNP, simply multiplying the learning rate of RNP's generator by 10, or dividing the learning rate of the predictor by 10, can lead to significant improvements.
+
+
 ## Citation
 
 
