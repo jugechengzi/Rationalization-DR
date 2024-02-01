@@ -33,6 +33,11 @@ Install other packages: pip install -r requirements.txt
 
 
 
+Due to different versions of torch, you may need to replace "cls_loss = args.cls_lambda * F.cross_entropy(forward_logit, labels)" with "cls_loss = args.cls_lambda * F.cross_entropy(forward_logit, labels.long())"
+
+
+
+
 
 
 
